@@ -3,6 +3,7 @@
     <h1 class="page-section__title">
       {{ title }}
     </h1>
+    <slot />
   </base-section>
 </template>
 
