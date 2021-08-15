@@ -11,6 +11,7 @@
 import BaseSection from './BaseSection.vue'
 
 export default {
+  name: 'ContentSection',
   components: {
     BaseSection
   },
