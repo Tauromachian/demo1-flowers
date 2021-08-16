@@ -1,12 +1,10 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <section-hero />
-      <section-reserve />
-      <section-public-services />
-      <section-recreation-and-culture />
-      <section-beauty />
-      <section-home-services />
-    </v-col>
+  <v-row justify="center" align="center" class="flex-col">
+    <section-hero />
+    <section-reserve />
+    <section-public-services />
+    <section-recreation-and-culture />
+    <section-beauty />
+    <section-home-services />
   </v-row>
 </template>
