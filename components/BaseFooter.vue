@@ -58,7 +58,7 @@
           class="d-flex flex-column justify-center pl-3"
         >
           <v-btn class="mb-2 last-update-btn">
-            Feach: 8-7-2021
+            Fecha: 8-7-2021
           </v-btn>
           <div />
           <v-btn class="mb-2 last-update-btn">
