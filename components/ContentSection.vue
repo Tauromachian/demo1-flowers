@@ -24,9 +24,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .page-section__title {
   text-transform: uppercase;
   text-align: center;
+  color: #185596;
 }
 </style>
