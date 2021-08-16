@@ -2,7 +2,9 @@
   <content-section>
     <v-row>
       <v-col cols="6">
-        <h1>Ticket</h1>
+        <h1 class="text-uppercase">
+          Ticket
+        </h1>
         <p>
           Es la forma más fácil y rápida de gestionar su agenda de servicios.
           Convierta su nuevo cliente en un cliente habitual, ofreciendo atención
