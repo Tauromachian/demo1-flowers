@@ -33,6 +33,7 @@ export default {}
 <style scoped>
 .section-hero__title {
   color: #185596;
+  font-size: 3.8rem;
 }
 .text-uppercase {
   text-transform: uppercase;
