@@ -13,7 +13,7 @@
         <v-btn color="primary">
           Resgistre su negocio
         </v-btn>
-        <v-btn>
+        <v-btn text>
           Y pruebe gratis por 15 días
         </v-btn>
       </v-col>
