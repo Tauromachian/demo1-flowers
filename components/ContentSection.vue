@@ -1,5 +1,5 @@
 <template>
-  <base-section>
+  <base-section v-bind="$attrs">
     <h1 v-if="title" class="page-section__title">
       {{ title }}
     </h1>
