@@ -5,7 +5,11 @@
       <v-text-field solo label="Nombre del servicio o del proveedor" />
       <v-label>Dónde</v-label>
       <v-text-field solo label="Provincia, municipio, concejo popular" />
-      <v-btn>Buscar</v-btn>
+      <div class="d-flex justify-center">
+        <v-btn>
+          Buscar
+        </v-btn>
+      </div>
     </v-form>
   </content-section>
 </template>
