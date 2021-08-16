@@ -1,10 +1,10 @@
 <template>
-  <v-row justify="center" align="center" class="flex-col">
+  <div class="d-flex flex-column">
     <section-hero />
     <section-reserve />
     <section-public-services />
     <section-recreation-and-culture />
     <section-beauty />
     <section-home-services />
-  </v-row>
+  </div>
 </template>
