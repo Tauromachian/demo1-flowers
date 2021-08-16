@@ -1,6 +1,6 @@
 <template>
   <base-section>
-    <h1 class="page-section__title">
+    <h1 v-if="title" class="page-section__title">
       {{ title }}
     </h1>
     <slot />
@@ -18,7 +18,7 @@ export default {
   props: {
     title: {
       type: String,
-      required: true
+      default: ''
     }
   }
 }
