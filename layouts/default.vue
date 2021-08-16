@@ -8,11 +8,7 @@
       </v-container>
     </v-main>
 
-    <v-footer app class="py-5">
-      <v-spacer />
-      <span>Copyright &copy; {{ new Date().getFullYear() }} Ticket todos los derechos reservados</span>
-      <v-spacer />
-    </v-footer>
+    <base-footer />
   </v-app>
 </template>
 
