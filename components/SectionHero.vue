@@ -2,7 +2,7 @@
   <content-section>
     <v-row>
       <v-col cols="6">
-        <h1 class="text-uppercase">
+        <h1 class="text-uppercase section-hero__title">
           Ticket
         </h1>
         <p>
@@ -29,8 +29,10 @@ export default {}
 </script>
 
 <style scoped>
+.section-hero__title {
+  color: #185596;
+}
 .text-uppercase {
   text-transform: uppercase;
-  color: #185596;
 }
 </style>
