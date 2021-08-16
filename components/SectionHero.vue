@@ -28,4 +28,9 @@
 export default {}
 </script>
 
-<style></style>
+<style scoped>
+.text-uppercase {
+  text-transform: uppercase;
+  color: #185596;
+}
+</style>
