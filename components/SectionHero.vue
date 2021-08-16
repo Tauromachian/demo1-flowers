@@ -12,7 +12,7 @@
         </p>
         <div class="d-flex justify-center">
           <v-btn color="primary align-self-center">
-            Resgistre su negocio
+            Registre su negocio
           </v-btn>
         </div>
         <v-btn text>
