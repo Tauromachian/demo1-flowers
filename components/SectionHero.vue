@@ -10,9 +10,11 @@
           Convierta su nuevo cliente en un cliente habitual, ofreciendo atención
           diferenciada y sin hacerlo esperar
         </p>
-        <v-btn color="primary">
-          Resgistre su negocio
-        </v-btn>
+        <div class="d-flex justify-center">
+          <v-btn color="primary align-self-center">
+            Resgistre su negocio
+          </v-btn>
+        </div>
         <v-btn text>
           Y pruebe gratis por 15 días
         </v-btn>
