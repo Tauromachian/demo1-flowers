@@ -22,7 +22,7 @@
     </v-app-bar>
 
     <v-main>
-      <v-container fluid class="px-0 pb-0">
+      <v-container fluid class="px-0 py-0">
         <Nuxt />
       </v-container>
     </v-main>
