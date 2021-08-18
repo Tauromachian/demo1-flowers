@@ -1,5 +1,9 @@
 <template>
-  <carousel-section title="Servicios del Hogar" />
+  <carousel-section
+    title="Servicios del Hogar"
+    :slides="slides"
+    class="background-color-grey"
+  />
 </template>
 
 <script>
@@ -9,10 +13,36 @@ export default {
   name: 'SectionHomeServices',
   components: {
     CarouselSection
+  },
+  data () {
+    return {
+      slides: [
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        },
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        },
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        }
+      ]
+    }
   }
 }
 </script>
 
-<style>
-
+<style scoped>
+.background-color-grey {
+  background-color: #f5f5f5;
+}
 </style>
