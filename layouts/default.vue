@@ -1,6 +1,25 @@
 <template>
   <v-app>
-    <v-app-bar app />
+    <v-app-bar app flat>
+      <v-spacer />
+      <v-btn
+        v-for="(link, index) in appBarLinks"
+        :key="link + index"
+        text
+        class="text-transform-capitalize"
+      >
+        {{ link }}
+      </v-btn>
+
+      <!-- Login button -->
+      <v-btn
+        :to="{ name: 'Login' }"
+        color="primary"
+        class="text-transform-capitalize"
+      >
+        Iniciar Sesión
+      </v-btn>
+    </v-app-bar>
 
     <v-main>
       <v-container fluid class="px-0">
