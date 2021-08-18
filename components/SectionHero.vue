@@ -12,7 +12,7 @@
             diferenciada y sin hacerlo esperar
           </p>
           <div class="d-flex justify-center">
-            <v-btn color="primary align-self-center">
+            <v-btn color="primary align-self-center" x-large>
               Registre su negocio
             </v-btn>
           </div>

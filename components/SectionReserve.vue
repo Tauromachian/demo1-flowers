@@ -16,7 +16,7 @@
           </v-label>
           <v-text-field solo label="Provincia, municipio, concejo popular" />
           <div class="d-flex justify-center">
-            <v-btn>
+            <v-btn x-large color="primary">
               Buscar
             </v-btn>
           </div>
