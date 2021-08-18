@@ -8,8 +8,8 @@
           </h1>
           <p>
             Es la forma más fácil y rápida de gestionar su agenda de servicios.
-            Convierta su nuevo cliente en un cliente habitual, ofreciendo atención
-            diferenciada y sin hacerlo esperar
+            Convierta su nuevo cliente en un cliente habitual, ofreciendo
+            atención diferenciada y sin hacerlo esperar
           </p>
           <div class="d-flex justify-center">
             <v-btn color="primary align-self-center" x-large>
@@ -50,7 +50,8 @@ export default {}
   overflow: hidden;
 }
 
-.section-hero::before, .section-hero::after {
+.section-hero::before,
+.section-hero::after {
   content: "";
   display: block;
   position: absolute;
@@ -64,7 +65,11 @@ export default {}
   background-color: #226eba;
   right: -20em;
   bottom: -35em;
-  border-top: 25px solid #10457c !important;
+  background: linear-gradient(
+    180deg,
+    rgba(34, 110, 186, 0.4) 4%,
+    rgba(16, 69, 124, 1) 4%
+  );
 }
 
 .section-hero::after {
@@ -86,7 +91,8 @@ export default {}
   text-transform: uppercase;
 }
 
-.circle-outer, .circle-middle {
+.circle-outer,
+.circle-middle {
   border-radius: 50%;
   opacity: 1;
   height: 100%;
@@ -115,5 +121,4 @@ export default {}
   height: 100%;
   width: 100%;
 }
-
 </style>
