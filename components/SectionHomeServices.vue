@@ -2,7 +2,7 @@
   <carousel-section
     title="Servicios del Hogar"
     :slides="slides"
-    class="background-color-grey"
+    class="background-color-grey mb-0"
   />
 </template>
 
