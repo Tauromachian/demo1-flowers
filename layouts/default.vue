@@ -16,6 +16,14 @@
 export default {
   data () {
     return {
+      appBarLinks: [
+        'Funcionamiento',
+        'Buscar',
+        'Servicios',
+        'Precios',
+        'Para quién',
+        'Descargar'
+      ],
       items: [
         {
           icon: 'mdi-apps',
