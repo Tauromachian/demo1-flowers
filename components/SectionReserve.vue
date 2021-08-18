@@ -1,8 +1,8 @@
 <template>
   <content-section title="Encuentra y reserva el servicio que necesitas" fluid>
-    <div class="blue">
-      <v-container>
-        <v-form>
+    <v-form>
+      <div class="blue">
+        <v-container>
           <v-label>
             <span class="white--text">
               Qué
@@ -15,14 +15,14 @@
             </span>
           </v-label>
           <v-text-field solo label="Provincia, municipio, concejo popular" />
-          <div class="d-flex justify-center">
-            <v-btn x-large color="primary">
-              Buscar
-            </v-btn>
-          </div>
-        </v-form>
-      </v-container>
-    </div>
+        </v-container>
+      </div>
+      <div class="d-flex justify-center">
+        <v-btn x-large color="primary">
+          Buscar
+        </v-btn>
+      </div>
+    </v-form>
   </content-section>
 </template>
 
