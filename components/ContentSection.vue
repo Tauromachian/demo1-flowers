@@ -31,5 +31,6 @@ export default {
   text-transform: uppercase;
   text-align: center;
   color: #185596;
+  font-weight: initial;
 }
 </style>
