@@ -1,5 +1,9 @@
 <template>
-  <carousel-section title="Servicios Públicos" :slides="slides" />
+  <carousel-section
+    title="Servicios Públicos"
+    :slides="slides"
+    class="background-color-grey"
+  />
 </template>
 
 <script>
@@ -36,3 +40,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.background-color-grey {
+  background-color: #f5f5f5;
+}
+</style>
