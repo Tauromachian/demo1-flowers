@@ -10,13 +10,17 @@
         <v-container class="max-width-400">
           <v-label>
             <span class="white--text">
-              Qué
+              <h3 class="mb-3 ml-3">
+                Qué
+              </h3>
             </span>
           </v-label>
           <v-text-field solo label="Nombre del servicio o del proveedor" />
           <v-label>
             <span class="white--text">
-              Dónde
+              <h3 class="mb-3 ml-3">
+                Dónde
+              </h3>
             </span>
           </v-label>
           <v-text-field solo label="Provincia, municipio, concejo popular" />
