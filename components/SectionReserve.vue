@@ -18,7 +18,7 @@
         </v-container>
       </div>
       <div class="d-flex justify-center">
-        <v-btn x-large color="primary">
+        <v-btn x-large color="primary" class="mt-5">
           Buscar
         </v-btn>
       </div>
