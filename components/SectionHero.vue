@@ -11,7 +11,7 @@
             Convierta su nuevo cliente en un cliente habitual, ofreciendo
             atención diferenciada y sin hacerlo esperar
           </p>
-          <div class="d-flex justify-center">
+          <div class="d-flex">
             <v-btn color="primary align-self-center" x-large>
               Registre su negocio
             </v-btn>
