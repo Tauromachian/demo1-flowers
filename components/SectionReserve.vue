@@ -1,13 +1,13 @@
 <template>
   <content-section fluid>
     <template #title>
-      <span class="section-title max-width-400">
+      <span class="section-title max-width-600">
         Encuentra y reserva el servicio que necesitas
       </span>
     </template>
     <v-form>
       <div class="blue">
-        <v-container class="max-width-400">
+        <v-container class="max-width-600">
           <v-label>
             <span class="white--text">
               <h3 class="mb-3 ml-3">
@@ -46,8 +46,8 @@ export default {
 </script>
 
 <style scoped>
-.max-width-400 {
-  max-width: 400px !important;
+.max-width-600 {
+  max-width: 600px !important;
 }
 
 .section-title {
