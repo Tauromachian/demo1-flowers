@@ -1,6 +1,6 @@
 <template>
   <base-section v-bind="$attrs">
-    <h1 v-if="title" class="page-section__title">
+    <h1 v-if="title" class="page-section__title mb-5">
       {{ title }}
     </h1>
     <slot />
