@@ -1,5 +1,5 @@
 <template>
-  <carousel-section title="Servicios Públicos" />
+  <carousel-section title="Servicios Públicos" :slides="slides" />
 </template>
 
 <script>
@@ -9,10 +9,30 @@ export default {
   name: 'SectionPublicServices',
   components: {
     CarouselSection
+  },
+  data () {
+    return {
+      slides: [
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        },
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        },
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        }
+      ]
+    }
   }
 }
 </script>
-
-<style>
-
-</style>
