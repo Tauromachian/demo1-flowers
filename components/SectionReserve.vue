@@ -2,7 +2,7 @@
   <content-section title="Encuentra y reserva el servicio que necesitas" fluid>
     <v-form>
       <div class="blue">
-        <v-container>
+        <v-container class="max-width-400">
           <v-label>
             <span class="white--text">
               Qué
@@ -35,3 +35,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.max-width-400 {
+  max-width: 400px !important;
+}
+</style>
