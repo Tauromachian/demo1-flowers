@@ -60,3 +60,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.text-transform-capitalize {
+  text-transform: capitalize !important;
+}
+</style>
