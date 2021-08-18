@@ -66,8 +66,8 @@ export default {}
 
 .section-hero::after {
   z-index: 0;
-  height: 40em;
-  width: 80em;
+  height: 50em;
+  width: 100em;
   transform: rotate(28deg);
   background-color: rgb(233, 227, 227);
   left: -10em;
