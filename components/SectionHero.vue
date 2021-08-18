@@ -87,34 +87,39 @@ export default {}
   text-transform: uppercase;
 }
 
-.circle-outer,
-.circle-middle {
+.circle {
+  position: relative;
+  width: 80%;
+  padding-top: 80%;
   border-radius: 50%;
-  opacity: 1;
-  height: 100%;
-  width: auto;
-  border: 1px solid black;
-}
-
-.circle-outer {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 5px solid white;
 }
 
-.circle-middle {
-  height: 80%;
-  padding: 3em;
+.circle:before {
+  content: " ";
+  position: absolute;
+  border-radius: inherit;
+  z-index: -1;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 5px solid white;
 }
 
-.circle-inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
+.circle:after {
   background-color: #185596;
-  text-align: center;
-  height: 100%;
-  width: 100%;
+  content: " ";
+  position: absolute;
+  border-radius: inherit;
+  z-index: -1;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
 }
+
 </style>
