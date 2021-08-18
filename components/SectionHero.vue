@@ -1,7 +1,7 @@
 <template>
-  <content-section>
+  <content-section class="section-hero">
     <v-container>
-      <v-row>
+      <v-row class="z-index-10">
         <v-col cols="6">
           <h1 class="text-uppercase section-hero__title">
             Ticket
@@ -41,6 +41,43 @@ export default {}
 </script>
 
 <style scoped>
+* {
+  z-index: 20;
+}
+
+.section-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-hero::before, .section-hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.section-hero::before {
+  z-index: 10;
+  height: 40em;
+  width: 60em;
+  transform: rotate(-35deg);
+  background-color: #226eba;
+  right: -20em;
+  bottom: -35em;
+  border-top: 25px solid #10457c !important;
+}
+
+.section-hero::after {
+  z-index: 0;
+  height: 40em;
+  width: 80em;
+  transform: rotate(28deg);
+  background-color: rgb(233, 227, 227);
+  left: -10em;
+  bottom: -20em;
+  border-top: 15px solid gray !important;
+}
+
 .section-hero__title {
   color: #185596;
   font-size: 3.8rem;
@@ -78,4 +115,5 @@ export default {}
   height: 100%;
   width: 100%;
 }
+
 </style>
