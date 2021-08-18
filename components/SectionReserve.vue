@@ -35,9 +35,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.white--text {
-  color: white !important;
-}
-</style>
