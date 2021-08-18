@@ -3,9 +3,17 @@
     <div class="blue">
       <v-container>
         <v-form>
-          <v-label>Qué</v-label>
+          <v-label>
+            <span class="white--text">
+              Qué
+            </span>
+          </v-label>
           <v-text-field solo label="Nombre del servicio o del proveedor" />
-          <v-label>Dónde</v-label>
+          <v-label>
+            <span class="white--text">
+              Dónde
+            </span>
+          </v-label>
           <v-text-field solo label="Provincia, municipio, concejo popular" />
           <div class="d-flex justify-center">
             <v-btn>
@@ -28,6 +36,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.white--text {
+  color: white !important;
+}
 </style>
