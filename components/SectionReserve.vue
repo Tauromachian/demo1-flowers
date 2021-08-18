@@ -1,5 +1,10 @@
 <template>
-  <content-section title="Encuentra y reserva el servicio que necesitas" fluid>
+  <content-section fluid>
+    <template #title>
+      <span class="section-title max-width-400">
+        Encuentra y reserva el servicio que necesitas
+      </span>
+    </template>
     <v-form>
       <div class="blue">
         <v-container class="max-width-400">
@@ -39,5 +44,9 @@ export default {
 <style scoped>
 .max-width-400 {
   max-width: 400px !important;
+}
+
+.section-title {
+  display: inline-block;
 }
 </style>
