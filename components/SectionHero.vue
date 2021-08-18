@@ -21,15 +21,7 @@
           </p>
         </v-col>
         <v-col cols="6">
-          <div class="circle-outer">
-            <div class="circle-middle">
-              <div class="circle-inner">
-                <p>
-                  Ticket
-                </p>
-              </div>
-            </div>
-          </div>
+          <div class="circle" />
         </v-col>
       </v-row>
     </v-container>
