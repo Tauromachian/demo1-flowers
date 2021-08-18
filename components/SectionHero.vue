@@ -16,9 +16,9 @@
               Registre su negocio
             </v-btn>
           </div>
-          <v-btn text>
+          <p>
             Y pruebe gratis por 15 días
-          </v-btn>
+          </p>
         </v-col>
         <v-col cols="6">
           <div class="circle-outer">
