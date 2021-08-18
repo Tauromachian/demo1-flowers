@@ -80,7 +80,11 @@ export default {}
   background-color: rgb(233, 227, 227);
   left: -10em;
   bottom: -20em;
-  border-top: 15px solid gray !important;
+  background: linear-gradient(
+    180deg,
+    rgba(151, 151, 151, 0.4) 3%,
+    rgb(233, 227, 227) 3%
+  );
 }
 
 .section-hero__title {
