@@ -55,13 +55,12 @@ export default {}
   height: 50em;
   width: 100em;
   transform: rotate(28deg);
-  background-color: rgb(233, 227, 227);
   left: -10em;
   bottom: -20em;
   background: linear-gradient(
     180deg,
     rgba(151, 151, 151, 0.4) 3%,
-    rgb(233, 227, 227) 3%
+    white 3%
   );
 }
 
