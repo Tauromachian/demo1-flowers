@@ -6,7 +6,7 @@
       </span>
     </template>
     <v-form>
-      <div class="blue">
+      <div class="section__form">
         <v-container class="max-width-600">
           <v-label>
             <span class="white--text">
@@ -48,6 +48,10 @@ export default {
 <style scoped>
 .max-width-600 {
   max-width: 600px !important;
+}
+
+.section__form {
+  background-image: url('~/static/compass.jpg');
 }
 
 .section__title {
