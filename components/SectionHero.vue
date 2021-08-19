@@ -97,6 +97,12 @@ export default {}
   );
 }
 
+@media screen and (min-width: 960px) {
+  .section-hero::after {
+    height: 50em;
+  }
+}
+
 .section-hero__title {
   color: #185596;
   font-size: 3.8rem;
