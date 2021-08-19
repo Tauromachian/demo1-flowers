@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app flat>
+    <v-app-bar app flat class="bg-transparent z-index-100">
       <v-spacer />
       <v-btn
         v-for="(link, index) in appBarLinks"
@@ -62,6 +62,14 @@ export default {
 </script>
 
 <style scoped>
+.z-index-100 {
+  z-index: 100 !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
 .text-transform-capitalize {
   text-transform: capitalize !important;
 }
