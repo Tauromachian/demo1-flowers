@@ -58,7 +58,8 @@ export default {}
   transform: rotate(28deg);
   left: -10em;
   bottom: -20em;
-  background: linear-gradient(180deg, rgba(151, 151, 151, 0.4) 3%, white 3%);
+  border-top: 15px solid rgb(226, 227, 236) !important;
+  background-color: white;
 }
 
 .section-hero::after {
