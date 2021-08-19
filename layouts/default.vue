@@ -21,7 +21,7 @@
       </v-btn>
     </v-app-bar>
 
-    <v-main>
+    <v-main class="pt-0">
       <v-container fluid class="px-0 py-0">
         <Nuxt />
       </v-container>
