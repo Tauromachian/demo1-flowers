@@ -1,5 +1,9 @@
 <template>
-  <carousel-section title="Bares y restaurantes" />
+  <carousel-section
+    title="Bares y restaurantes"
+    :slides="slides"
+    class="section"
+  />
 </template>
 
 <script>
@@ -9,10 +13,36 @@ export default {
   name: 'SectionRestaurantsAndBars',
   components: {
     CarouselSection
+  },
+  data () {
+    return {
+      slides: [
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        },
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        },
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        }
+      ]
+    }
   }
 }
 </script>
 
-<style>
-
+<style scoped>
+.section {
+  background-image: url('~/static/restaurant.jpg');
+}
 </style>

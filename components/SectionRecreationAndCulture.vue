@@ -1,5 +1,9 @@
 <template>
-  <carousel-section title="Ofertas recreativas y culturales" />
+  <carousel-section
+    :slides="slides"
+    title="Ofertas recreativas y culturales"
+    class="section"
+  />
 </template>
 
 <script>
@@ -9,10 +13,36 @@ export default {
   name: 'SectionRecreationAndCulture',
   components: {
     CarouselSection
+  },
+  data () {
+    return {
+      slides: [
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        },
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        },
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        }
+      ]
+    }
   }
 }
 </script>
 
-<style>
-
+<style scoped>
+.section {
+  background-image: url('~/static/sits.jpg');
+}
 </style>

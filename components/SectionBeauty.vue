@@ -1,5 +1,9 @@
 <template>
-  <carousel-section title="Servicios de belleza" />
+  <carousel-section
+    title="Servicios de belleza"
+    :slides="slides"
+    class="section"
+  />
 </template>
 
 <script>
@@ -9,10 +13,36 @@ export default {
   name: 'SectionBeauty',
   components: {
     CarouselSection
+  },
+  data () {
+    return {
+      slides: [
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        },
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        },
+        {
+          img: 'picture.png',
+          serviceName: 'Nombre',
+          establishmentName: 'Nombre del establecimiento',
+          description: 'Lorem ipsum dolorem sit amet consecuteur'
+        }
+      ]
+    }
   }
 }
 </script>
 
-<style>
-
+<style scoped>
+.section {
+  background-image: url('~/static/eyes-makeup.jpg');
+}
 </style>
