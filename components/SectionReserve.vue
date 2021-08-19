@@ -51,7 +51,11 @@ export default {
 }
 
 .section__form {
-  background-image: url('~/static/compass.jpg');
+  position: relative;
+  background-image:
+    url("~/static/compass.jpg");
+  background-size: 100% auto;
+  background-position-y: center;
 }
 
 .section__title {
