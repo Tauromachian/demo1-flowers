@@ -1,7 +1,7 @@
 <template>
   <content-section fluid>
     <template #title>
-      <span class="section-title max-width-600">
+      <span class="section__title max-width-600">
         Encuentra y reserva el servicio que necesitas
       </span>
     </template>
@@ -50,7 +50,7 @@ export default {
   max-width: 600px !important;
 }
 
-.section-title {
+.section__title {
   display: inline-block;
 }
 </style>
