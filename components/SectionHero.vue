@@ -73,6 +73,15 @@ export default {}
   }
 }
 
+@media screen and (min-width: 960px) {
+  .section-hero::before {
+    height: 100em;
+    width: 200em;
+    left: -40em;
+    bottom: -90em;
+  }
+}
+
 .section-hero::after {
   z-index: 10;
   height: 40em;
