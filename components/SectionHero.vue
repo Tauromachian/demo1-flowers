@@ -40,7 +40,12 @@ export default {}
 .section-hero {
   position: relative;
   overflow: hidden;
-  background-image:   linear-gradient(90deg, rgba(16, 68, 122, 0.95) 60%, rgba(24, 85, 150, 0.8)), url("~/static/office.jpg");
+  background-image: linear-gradient(
+      90deg,
+      rgba(16, 68, 122, 0.95) 60%,
+      rgba(24, 85, 150, 0.8)
+    ),
+    url("~/static/office.jpg");
   background-size: 100% auto;
 }
 
@@ -56,10 +61,16 @@ export default {}
   height: 50em;
   width: 100em;
   transform: rotate(28deg);
-  left: -10em;
+  left: -20em;
   bottom: -20em;
   border-top: 15px solid rgb(226, 227, 236) !important;
   background-color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .section-hero::before {
+    left: -50em;
+  }
 }
 
 .section-hero::after {
