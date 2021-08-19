@@ -40,7 +40,7 @@ export default {}
 .section-hero {
   position: relative;
   overflow: hidden;
-  background-image:   linear-gradient(90deg, rgba(16, 68, 122, 0.95), rgba(24, 85, 150, 0.8)), url("~/static/office.jpg");
+  background-image:   linear-gradient(90deg, rgba(16, 68, 122, 0.95) 60%, rgba(24, 85, 150, 0.8)), url("~/static/office.jpg");
   background-size: 100% auto;
 }
 
