@@ -40,7 +40,8 @@ export default {}
 .section-hero {
   position: relative;
   overflow: hidden;
-  background-image: url('~/static/office.jpg');
+  background-image: url("~/static/office.jpg");
+  background-size: 100% auto;
 }
 
 .section-hero::before,
@@ -57,11 +58,7 @@ export default {}
   transform: rotate(28deg);
   left: -10em;
   bottom: -20em;
-  background: linear-gradient(
-    180deg,
-    rgba(151, 151, 151, 0.4) 3%,
-    white 3%
-  );
+  background: linear-gradient(180deg, rgba(151, 151, 151, 0.4) 3%, white 3%);
 }
 
 .section-hero::after {
