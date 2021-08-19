@@ -52,7 +52,11 @@ export default {
 
 .section__form {
   position: relative;
-  background-image:
+  background-image: linear-gradient(
+      90deg,
+      rgba(34, 110, 186, 0.4),
+      rgba(34, 110, 186, 0.4)
+    ),
     url("~/static/compass.jpg");
   background-size: 100% auto;
   background-position-y: center;
