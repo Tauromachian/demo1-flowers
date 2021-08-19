@@ -50,21 +50,6 @@ export default {}
 }
 
 .section-hero::before {
-  z-index: 10;
-  height: 40em;
-  width: 60em;
-  transform: rotate(-35deg);
-  background-color: #226eba;
-  right: -20em;
-  bottom: -35em;
-  background: linear-gradient(
-    180deg,
-    rgba(34, 110, 186, 0.4) 4%,
-    rgba(16, 69, 124, 1) 4%
-  );
-}
-
-.section-hero::after {
   z-index: 0;
   height: 50em;
   width: 100em;
@@ -76,6 +61,21 @@ export default {}
     180deg,
     rgba(151, 151, 151, 0.4) 3%,
     rgb(233, 227, 227) 3%
+  );
+}
+
+.section-hero::after {
+  z-index: 10;
+  height: 40em;
+  width: 60em;
+  transform: rotate(-35deg);
+  background-color: #226eba;
+  right: -20em;
+  bottom: -35em;
+  background: linear-gradient(
+    180deg,
+    rgba(34, 110, 186, 0.4) 4%,
+    rgba(16, 69, 124, 1) 4%
   );
 }
 
@@ -121,5 +121,4 @@ export default {}
   right: 50px;
   bottom: 50px;
 }
-
 </style>
