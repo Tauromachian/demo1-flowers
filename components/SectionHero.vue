@@ -40,6 +40,7 @@ export default {}
 .section-hero {
   position: relative;
   overflow: hidden;
+  background-image: url('~/static/office.jpg');
 }
 
 .section-hero::before,
