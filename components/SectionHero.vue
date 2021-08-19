@@ -2,7 +2,7 @@
   <content-section class="section-hero">
     <v-container>
       <v-row class="z-index-10">
-        <v-col cols="6" class="d-flex flex-column justify-center">
+        <v-col cols="12" sm="6" class="d-flex flex-column justify-center">
           <h1 class="text-uppercase section-hero__title">
             Ticket
           </h1>
@@ -20,7 +20,7 @@
             Y pruebe gratis por 15 días
           </p>
         </v-col>
-        <v-col cols="6">
+        <v-col cols="12" sm="6">
           <div class="circle" />
         </v-col>
       </v-row>
