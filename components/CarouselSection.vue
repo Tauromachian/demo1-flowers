@@ -5,7 +5,7 @@
       class="w-full no-shadow"
       arrows-outside
       transition-speed="250"
-      fixed-height="38em"
+      fixed-height="30em"
       bullets-outside
       :breakpoints="breakpoints"
       :gap="2"
