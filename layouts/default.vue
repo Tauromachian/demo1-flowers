@@ -61,7 +61,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang='scss'>
+@import 'vueperslides/dist/vueperslides.css';
+
 .z-index-100 {
   z-index: 100 !important;
 }
