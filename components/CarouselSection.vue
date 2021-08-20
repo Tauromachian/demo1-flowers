@@ -1,5 +1,5 @@
 <template>
-  <content-section :title="title">
+  <content-section :title="title" class="justify-center">
     <vueper-slides
       v-if="slides.length"
       class="w-full no-shadow"
