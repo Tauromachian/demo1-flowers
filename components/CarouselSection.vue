@@ -27,7 +27,7 @@
               {{ slide.description }}
             </v-card-text>
             <v-card-actions class="justify-center">
-              <v-btn text color="primary">
+              <v-btn text color="primary" class="text-transform-capitalize">
                 Reservar ya
               </v-btn>
             </v-card-actions>
