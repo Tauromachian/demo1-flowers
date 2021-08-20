@@ -5,7 +5,7 @@
       class="w-full no-shadow"
       arrows-outside
       transition-speed="250"
-      fixed-height="28em"
+      fixed-height="38em"
       bullets-outside
       :breakpoints="breakpoints"
       :gap="2"
@@ -17,19 +17,17 @@
         <template #content>
           <v-card>
             <v-img :src="slide.img" alt="" />
+            <v-card-title>
+              {{ slide.serviceName }}
+            </v-card-title>
+            <v-card-subtitle>
+              {{ slide.establishmentName }}
+            </v-card-subtitle>
             <v-card-text>
-              <v-card-title>
-                {{ slide.serviceName }}
-              </v-card-title>
-              <v-card-title>
-                {{ slide.establishmentName }}
-              </v-card-title>
-              <p>
-                {{ slide.description }}
-              </p>
+              {{ slide.description }}
             </v-card-text>
-            <v-card-actions>
-              <v-btn text>
+            <v-card-actions class="justify-center">
+              <v-btn text color="primary">
                 Reservar ya
               </v-btn>
             </v-card-actions>
