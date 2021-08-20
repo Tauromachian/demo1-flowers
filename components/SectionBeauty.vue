@@ -43,6 +43,13 @@ export default {
 
 <style scoped>
 .section {
-  background-image: url('~/static/eyes-makeup.jpg');
+  background-image: linear-gradient(
+      90deg,
+      rgba(34, 110, 186, 0.4),
+      rgba(34, 110, 186, 0.4)
+    ),
+    url("~/static/eyes-makeup.jpg");
+  background-size: 100% auto;
+  background-position-y: center;
 }
 </style>
