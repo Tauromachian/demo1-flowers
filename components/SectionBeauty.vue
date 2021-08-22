@@ -1,15 +1,18 @@
 <template>
-  <carousel-section
-    title="Servicios de belleza"
-    :slides="slides"
-    class="section"
-  >
-    <template #title>
-      <span class="section__title">
-        Servicios de belleza
-      </span>
-    </template>
-  </carousel-section>
+  <div class="section-beauty">
+    <carousel-section
+      title="Servicios de belleza"
+      :slides="slides"
+      class="section"
+    >
+      <template #title>
+        <span class="section__title">
+          Servicios de belleza
+        </span>
+      </template>
+    </carousel-section>
+    <div class="bottom-line" />
+  </div>
 </template>
 
 <script>
@@ -61,5 +64,17 @@ export default {
 
 .section__title {
   color: white;
+}
+
+.section-beauty {
+  position: relative;
+}
+
+.bottom-line {
+  position: absolute;
+  background-color: #185596;
+  height: 80px;
+  width: 100%;
+  bottom: 0;
 }
 </style>
