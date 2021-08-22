@@ -3,7 +3,13 @@
     title="Bares y restaurantes"
     :slides="slides"
     class="section"
-  />
+  >
+    <template #title>
+      <span class="section__title">
+        Bares y restaurantes
+      </span>
+    </template>
+  </carousel-section>
 </template>
 
 <script>
@@ -52,5 +58,9 @@ export default {
 
   background-size: 100% auto;
   background-position-y: center;
+}
+
+.section__title {
+  color: white;
 }
 </style>
