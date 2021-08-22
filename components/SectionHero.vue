@@ -143,10 +143,10 @@ export default {
   position: absolute;
   border-radius: inherit;
   z-index: -1;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
   border: 5px solid white;
 }
 
@@ -156,9 +156,9 @@ export default {
   position: absolute;
   border-radius: inherit;
   z-index: -1;
-  top: 50px;
-  left: 50px;
-  right: 50px;
-  bottom: 50px;
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
 }
 </style>
