@@ -10,7 +10,7 @@
         arrows-outside
         transition-speed="250"
         fixed-height="30em"
-        bullets-outside
+        :bullets="false"
         :breakpoints="breakpoints"
         :gap="2"
       >
