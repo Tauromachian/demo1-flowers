@@ -1,9 +1,14 @@
 <template>
-  <carousel-section
-    :slides="slides"
-    title="Ofertas recreativas y culturales"
-    class="section"
-  />
+  <div>
+    <h1 class="page-section__title py-10">
+      Ofertas recreativas y culturales
+    </h1>
+    <carousel-section
+      :slides="slides"
+      title=""
+      class="section"
+    />
+  </div>
 </template>
 
 <script>
@@ -51,5 +56,12 @@ export default {
     url("~/static/sits.jpg");
   background-size: 100% auto;
   background-position-y: center;
+}
+
+.page-section__title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #185596;
+  font-weight: initial;
 }
 </style>
