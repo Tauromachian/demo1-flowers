@@ -1,5 +1,8 @@
 <template>
   <content-section :title="title" class="justify-center">
+    <template v-if="$slots.title" #title>
+      <slot name="title" />
+    </template>
     <v-container>
       <vueper-slides
         v-if="slides.length"
