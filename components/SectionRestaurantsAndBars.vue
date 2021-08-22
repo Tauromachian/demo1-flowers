@@ -1,6 +1,5 @@
 <template>
   <carousel-section
-    title="Bares y restaurantes"
     :slides="slides"
     class="section"
   >
