@@ -21,7 +21,9 @@
           </p>
         </v-col>
         <v-col cols="12" sm="6">
-          <div class="circle" />
+          <div class="circle">
+            <img src="ticket-logo.png" class="circle__img">
+          </div>
         </v-col>
       </v-row>
     </v-container>
@@ -118,10 +120,16 @@ export default {
   width: 80%;
   padding-top: 80%;
   border-radius: 50%;
-  display: flex;
   justify-content: center;
   align-items: center;
   border: 5px solid white;
+}
+
+.circle__img {
+  position: absolute;
+  top: 40%;
+  right: 28%;
+  width: 50%;
 }
 
 .circle:before {
