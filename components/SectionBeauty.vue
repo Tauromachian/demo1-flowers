@@ -3,7 +3,13 @@
     title="Servicios de belleza"
     :slides="slides"
     class="section"
-  />
+  >
+    <template #title>
+      <span class="section__title">
+        Servicios de belleza
+      </span>
+    </template>
+  </carousel-section>
 </template>
 
 <script>
@@ -51,5 +57,9 @@ export default {
     url("~/static/eyes-makeup.jpg");
   background-size: 100% auto;
   background-position-y: center;
+}
+
+.section__title {
+  color: white;
 }
 </style>
