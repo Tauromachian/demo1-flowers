@@ -20,7 +20,7 @@
             Y pruebe gratis por 15 días
           </p>
         </v-col>
-        <v-col cols="12" sm="6">
+        <v-col cols="12" sm="6" class="circle__wrapper">
           <div class="circle">
             <img src="ticket-logo.png" class="circle__img">
           </div>
@@ -113,6 +113,12 @@ export default {
 }
 .text-uppercase {
   text-transform: uppercase;
+}
+
+.circle__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .circle {
