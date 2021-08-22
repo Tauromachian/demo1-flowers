@@ -9,7 +9,7 @@
         class="w-full no-shadow"
         arrows-outside
         transition-speed="250"
-        fixed-height="30em"
+        fixed-height="28em"
         :bullets="false"
         :breakpoints="breakpoints"
         :gap="2"
