@@ -1,5 +1,5 @@
 <template>
-  <div class="py-10" :class="{ 'width-100': fluid }">
+  <div class="pt-10" :class="{ 'width-100': fluid }">
     <slot />
   </div>
 </template>
