@@ -73,7 +73,7 @@ export default {
 .bottom-line {
   position: absolute;
   background-color: #185596;
-  height: 80px;
+  height: 240px;
   width: 100%;
   bottom: 0;
 }
