@@ -53,7 +53,7 @@ export default {
       var(--overlay-color1),
       var(--overlay-color1)
     ),
-    url("~/static/restaurant.jpg");
+    url("~@/assets/restaurant.jpg");
 
   background-size: 100% auto;
   background-position-y: center;
