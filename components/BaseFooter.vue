@@ -106,7 +106,6 @@ p {
 }
 
 .footer {
-  background: rgb(31, 103, 177);
   background: linear-gradient(
     90deg,
     rgba(31, 103, 177, 1) 6%,
