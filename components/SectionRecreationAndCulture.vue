@@ -50,8 +50,8 @@ export default {
 .section {
   background-image: linear-gradient(
       90deg,
-      rgba(34, 110, 186, 0.4),
-      rgba(34, 110, 186, 0.4)
+      var(--overlay-color1),
+      var(--overlay-color1)
     ),
     url("~/static/sits.jpg");
   background-size: 100% auto;
@@ -61,7 +61,7 @@ export default {
 .page-section__title {
   text-transform: uppercase;
   text-align: center;
-  color: #185596;
+  color: var(--color-primary);
   font-weight: initial;
 }
 </style>

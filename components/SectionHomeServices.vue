@@ -43,6 +43,6 @@ export default {
 
 <style scoped>
 .background-color-grey {
-  background-color: #f5f5f5;
+  background-color: var(--section-background-color-primary);
 }
 </style>

@@ -50,8 +50,8 @@ export default {
 .section {
   background-image: linear-gradient(
       90deg,
-      rgba(34, 110, 186, 0.4),
-      rgba(34, 110, 186, 0.4)
+      var(--overlay-color1),
+      var(--overlay-color1)
     ),
     url("~/static/restaurant.jpg");
 
@@ -60,6 +60,6 @@ export default {
 }
 
 .section__title {
-  color: white;
+  color: var(--color-quaternary);
 }
 </style>

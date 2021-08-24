@@ -46,8 +46,8 @@ export default {
   overflow: hidden;
   background-image: linear-gradient(
       90deg,
-      rgba(16, 68, 122, 0.95) 60%,
-      rgba(24, 85, 150, 0.8)
+      var(--overlay-color4) 60%,
+      var(--overlay-color5)
     ),
     url("~/static/office.jpg");
   background-size: 100% auto;
@@ -67,8 +67,8 @@ export default {
   transform: rotate(28deg);
   left: -20em;
   bottom: -20em;
-  border-top: 15px solid rgb(226, 227, 236) !important;
-  background-color: white;
+  border-top: 15px solid var(--border) !important;
+  background-color: var(--color-quaternary);
 }
 
 @media screen and (min-width: 600px) {
@@ -91,7 +91,7 @@ export default {
   height: 40em;
   width: 60em;
   transform: rotate(-35deg);
-  background-color: #226eba;
+  background-color: var(--color-tertiary);
   right: -20em;
   bottom: -35em;
   background: linear-gradient(
@@ -108,7 +108,7 @@ export default {
 }
 
 .section-hero__title {
-  color: #185596;
+  color: var(--color-primary);
   font-size: 3.8rem;
 }
 .text-uppercase {
@@ -128,8 +128,8 @@ export default {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  border: 5px solid white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 5px solid var(--color-quaternary);
+  box-shadow: var(--shadow-color1) 0px 7px 29px 0px;
 }
 
 .circle__img {
@@ -148,12 +148,12 @@ export default {
   left: 40px;
   right: 40px;
   bottom: 40px;
-  border: 5px solid white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 5px solid var(--color-quaternary);
+  box-shadow: var(--shadow-color1) 0px 7px 29px 0px;
 }
 
 .circle:after {
-  background-color: #185596;
+  background-color: var(--color-primary);
   content: " ";
   position: absolute;
   border-radius: inherit;

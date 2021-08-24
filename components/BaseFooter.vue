@@ -108,8 +108,8 @@ p {
 .footer {
   background: linear-gradient(
     90deg,
-    rgba(31, 103, 177, 1) 6%,
-    rgba(7, 46, 89, 1) 89%
+    var(--overlay-color2) 6%,
+    var(--overlay-color3) 89%
   );
   overflow: hidden;
 }

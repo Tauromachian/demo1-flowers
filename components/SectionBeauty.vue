@@ -54,8 +54,8 @@ export default {
 .section {
   background-image: linear-gradient(
       90deg,
-      rgba(34, 110, 186, 0.4),
-      rgba(34, 110, 186, 0.4)
+      var(--overlay-color1),
+      var(--overlay-color1)
     ),
     url("~/static/eyes-makeup.jpg");
   background-size: 100% auto;
@@ -63,7 +63,7 @@ export default {
 }
 
 .section__title {
-  color: white;
+  color: var(--color-quaternary);
 }
 
 .section-beauty {
@@ -72,7 +72,7 @@ export default {
 
 .bottom-line {
   position: absolute;
-  background-color: #185596;
+  background-color: var(--color-primary);
   height: 240px;
   width: 100%;
   bottom: 0;
