@@ -126,9 +126,9 @@ p {
   height: 40em;
   width: 60em;
   transform: skewY(-24deg);
-  background-color: #226eba;
+  background-color: var(--color-tertiary);
   right: 0;
   bottom: -33em;
-  border-top: 2.4em solid #10457c !important;
+  border-top: 2.4em solid var(--border2) !important;
 }
 </style>
