@@ -115,7 +115,7 @@ p {
 }
 
 .footer__copyright {
-  background-color: rgb(7, 46, 89);
+  background-color: var(--accent);
   opacity: 0.6;
 }
 
