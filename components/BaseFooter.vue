@@ -96,7 +96,8 @@ p {
 }
 
 .last-update-btn {
-  background-color: RGB(0, 191, 165, 0.4) !important;
+  background-color: var(--info) !important;
+  opacity: 0.7;
 }
 
 .container {
