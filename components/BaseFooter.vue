@@ -115,7 +115,8 @@ p {
 }
 
 .footer__copyright {
-  background-color: rgb(7, 46, 89, 0.6);
+  background-color: var(--color-secondary);
+  opacity: 0.7;
 }
 
 .footer::before {
