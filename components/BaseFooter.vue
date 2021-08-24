@@ -98,6 +98,7 @@ p {
 .last-update-btn {
   background-color: var(--info) !important;
   opacity: 0.7;
+  text-transform: capitalize;
 }
 
 .container {
