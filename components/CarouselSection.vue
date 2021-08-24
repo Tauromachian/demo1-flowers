@@ -48,6 +48,7 @@ import { VueperSlides, VueperSlide } from 'vueperslides'
 import ContentSection from './ContentSection.vue'
 
 export default {
+  name: 'CarouselSection',
   components: {
     ContentSection,
     VueperSlides,
