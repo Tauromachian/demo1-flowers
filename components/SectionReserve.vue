@@ -57,9 +57,9 @@ export default {
       var(--overlay-color1),
       var(--overlay-color1)
     ),
-    url("~/static/compass.jpg");
+    url("~/static/flowerfield2.jpg");
   background-size: 100% auto;
-  background-position-y: center;
+  background-position-y: bottom;
 }
 
 .section__title {
