@@ -4,25 +4,18 @@
       <v-row class="z-index-10">
         <v-col cols="12" sm="6" class="d-flex flex-column justify-center">
           <h1 class="text-uppercase section-hero__title">
-            Ticket
+            Flowers
           </h1>
           <p>
-            Es la forma más fácil y rápida de gestionar su agenda de servicios.
-            Convierta su nuevo cliente en un cliente habitual, ofreciendo
-            atención diferenciada y sin hacerlo esperar
+            Flowers are beautiful and make our lives rich. The colors and smells
+            really add to what we love.
+            We sell flowers in their own vessel for you to help it grow.
+            Want to have your own flower?
           </p>
           <div class="d-flex">
             <v-btn color="primary align-self-center" x-large>
-              Registre su negocio
+              Get your flower
             </v-btn>
-          </div>
-          <p>
-            Y pruebe gratis por 15 días
-          </p>
-        </v-col>
-        <v-col cols="12" sm="6" class="circle__wrapper">
-          <div class="circle">
-            <img src="ticket-logo.png" class="circle__img">
           </div>
         </v-col>
       </v-row>
