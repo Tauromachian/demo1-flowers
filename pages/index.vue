@@ -6,6 +6,5 @@
     <section-restaurants-and-bars />
     <section-recreation-and-culture />
     <section-beauty />
-    <section-home-services />
   </div>
 </template>
