@@ -2,7 +2,7 @@
   <content-section fluid>
     <template #title>
       <span class="section__title max-width-600">
-        Encuentra y reserva el servicio que necesitas
+        Find your favorite flower
       </span>
     </template>
     <v-form>
@@ -11,24 +11,24 @@
           <v-label>
             <span class="white--text">
               <h3 class="mb-3 ml-3">
-                Qué
+                Name
               </h3>
             </span>
           </v-label>
-          <v-text-field solo label="Nombre del servicio o del proveedor" />
+          <v-text-field solo label="Sunflower, rose, margarita" />
           <v-label>
             <span class="white--text">
               <h3 class="mb-3 ml-3">
-                Dónde
+                Color
               </h3>
             </span>
           </v-label>
-          <v-text-field solo label="Provincia, municipio, concejo popular" />
+          <v-text-field solo label="Yellow, blue, red" />
         </v-container>
       </div>
       <div class="d-flex justify-center">
         <v-btn x-large color="primary" class="mt-5">
-          Buscar
+          Search
         </v-btn>
       </div>
     </v-form>
