@@ -1,8 +1,5 @@
 <template>
-  <carousel-section
-    :slides="slides"
-    class="section"
-  >
+  <carousel-section :slides="slides" class="section">
     <template #title>
       <span class="section__title">
         Bares y restaurantes
@@ -53,7 +50,7 @@ export default {
       var(--overlay-color1),
       var(--overlay-color1)
     ),
-    url("~@/assets/restaurant.jpg");
+    url("~/static/restaurant.jpg");
 
   background-size: 100% auto;
   background-position-y: center;
