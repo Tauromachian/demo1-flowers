@@ -54,7 +54,7 @@ export default {
 .section {
   background-image: url("~/static/sunflower2.jpg");
   background-size: 100% auto;
-  background-position-y: center;
+  background-position-y: top;
 }
 
 .section__title {
