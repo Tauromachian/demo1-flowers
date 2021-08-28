@@ -37,7 +37,6 @@
     <v-bottom-navigation
       class="z-index-100 d-sm-none"
       fixed
-      :value="value"
       color="primary"
       horizontal
     >
