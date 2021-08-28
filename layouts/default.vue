@@ -36,12 +36,9 @@ export default {
   data () {
     return {
       appBarLinks: [
-        'Funcionamiento',
-        'Buscar',
-        'Servicios',
-        'Precios',
-        'Para quién',
-        'Descargar'
+        'Home',
+        'Flowers',
+        'Search'
       ],
       items: [
         {
