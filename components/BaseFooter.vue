@@ -80,6 +80,10 @@ export default {
   font-size: 60px !important;
 }
 
+h3 {
+  color: var(--accent2);
+}
+
 p {
   margin-bottom: 0;
 }
