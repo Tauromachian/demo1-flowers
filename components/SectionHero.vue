@@ -53,17 +53,6 @@ export default {
   position: absolute;
 }
 
-.section-hero::before {
-  z-index: 0;
-  height: 50em;
-  width: 100em;
-  transform: rotate(28deg);
-  left: -20em;
-  bottom: -20em;
-  border-top: 15px solid var(--border) !important;
-  background-color: var(--color-quaternary);
-}
-
 @media screen and (min-width: 600px) {
   .section-hero::before {
     left: -50em;
