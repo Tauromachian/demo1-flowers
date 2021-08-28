@@ -37,8 +37,17 @@ export default {
   position: relative;
   overflow: hidden;
   background-image: url("~/static/flowerfield1.jpg");
-  background-size: 100% auto;
+  background-size: 100% cover;
+  background-position: bottom;
   height: 100vh;
+}
+
+@media screen and (min-width: 960px) {
+  .section-hero {
+    background-size: 100% auto;
+    background-position: initial;
+    height: 100vh;
+  }
 }
 
 .section-hero__container {
