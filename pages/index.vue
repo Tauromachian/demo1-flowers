@@ -1,9 +1,9 @@
 <template>
   <div class="d-flex flex-column">
     <section-hero />
-    <section-reserve class="pb-10" />
-    <section-public-services />
-    <section-restaurants-and-bars />
+    <section-reserve class="py-15" />
+    <section-public-services class="pt-15" />
+    <section-restaurants-and-bars class="pt-15" />
     <section-recreation-and-culture />
     <section-beauty />
   </div>
