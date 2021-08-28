@@ -49,6 +49,7 @@ export default {
           secondary: '#e8a01c',
           tertiary: '#504c24',
           accent: '#e8a01c',
+          accent3: '#fafafa',
           title: '#8fccda',
           info: '#8fccda',
           border: '#61415d'
