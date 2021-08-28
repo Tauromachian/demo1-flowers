@@ -72,8 +72,8 @@ export default {
   bottom: -35em;
   background: linear-gradient(
     180deg,
-    rgba(34, 110, 186, 0.4) 4%,
-    rgba(16, 69, 124, 1) 4%
+    var(--color-quaternary) 4%,
+    var(--color-primary) 4%
   );
 }
 
