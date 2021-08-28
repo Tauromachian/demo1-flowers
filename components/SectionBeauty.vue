@@ -11,7 +11,6 @@
         </span>
       </template>
     </carousel-section>
-    <div class="bottom-line" />
   </div>
 </template>
 
@@ -58,7 +57,7 @@ export default {
 }
 
 .section__title {
-  color: var(--color-quaternary);
+  color: var(--title1);
 }
 
 .section-beauty {
