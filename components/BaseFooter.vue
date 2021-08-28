@@ -18,8 +18,13 @@
 
         <v-col md="3" cols="6" class="px-3">
           <h3 class="mb-5">
-            Síguenos en
+            Contacts
           </h3>
+          <p>Mail</p>
+          <p>Phone</p>
+        </v-col>
+
+        <v-col md="3" cols="6" class="px-3">
           <v-btn
             v-for="(socialButton, index) in social"
             :key="socialButton + index"
