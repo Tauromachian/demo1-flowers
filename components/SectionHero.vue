@@ -41,7 +41,6 @@ export default {
   padding: 20em initial;
 }
 
-.section-hero::before,
 .section-hero::after {
   content: "";
   display: block;
