@@ -68,7 +68,7 @@ export default {
   width: 60em;
   transform: rotate(-35deg);
   background-color: var(--color-tertiary);
-  right: -37em;
+  right: -26em;
   bottom: -35em;
   background: linear-gradient(
     180deg,
@@ -81,6 +81,8 @@ export default {
 @media screen and (min-width: 960px) {
   .section-hero::after {
     height: 50em;
+    right: -37em;
+    bottom: -35em;
   }
 }
 
