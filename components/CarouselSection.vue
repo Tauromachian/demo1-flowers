@@ -32,7 +32,7 @@
               </v-card-text>
               <v-card-actions class="justify-center">
                 <v-btn text color="primary" class="text-transform-capitalize">
-                  Reservar ya
+                  Get now!
                 </v-btn>
               </v-card-actions>
             </v-card>

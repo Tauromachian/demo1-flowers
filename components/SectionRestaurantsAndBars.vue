@@ -2,7 +2,7 @@
   <carousel-section :slides="slides" class="section">
     <template #title>
       <span class="section__title">
-        Bares y restaurantes
+        Newly adquired
       </span>
     </template>
   </carousel-section>
@@ -21,20 +21,20 @@ export default {
       slides: [
         {
           img: 'picture.png',
-          serviceName: 'Nombre',
-          establishmentName: 'Nombre del establecimiento',
+          serviceName: 'Name',
+          establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
         },
         {
           img: 'picture.png',
-          serviceName: 'Nombre',
-          establishmentName: 'Nombre del establecimiento',
+          serviceName: 'Name',
+          establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
         },
         {
           img: 'picture.png',
-          serviceName: 'Nombre',
-          establishmentName: 'Nombre del establecimiento',
+          serviceName: 'Name',
+          establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
         }
       ]

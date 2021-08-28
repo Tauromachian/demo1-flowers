@@ -7,7 +7,7 @@
     >
       <template #title>
         <span class="section__title">
-          Servicios de belleza
+          More Popular
         </span>
       </template>
     </carousel-section>
@@ -27,20 +27,20 @@ export default {
       slides: [
         {
           img: 'picture.png',
-          serviceName: 'Nombre',
-          establishmentName: 'Nombre del establecimiento',
+          serviceName: 'Name',
+          establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
         },
         {
           img: 'picture.png',
-          serviceName: 'Nombre',
-          establishmentName: 'Nombre del establecimiento',
+          serviceName: 'Name',
+          establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
         },
         {
           img: 'picture.png',
-          serviceName: 'Nombre',
-          establishmentName: 'Nombre del establecimiento',
+          serviceName: 'Name',
+          establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
         }
       ]
