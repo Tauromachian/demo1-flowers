@@ -86,6 +86,7 @@ h3 {
 
 p {
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 .last-update-btn {
