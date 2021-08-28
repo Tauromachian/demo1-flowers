@@ -38,6 +38,7 @@ export default {
   overflow: hidden;
   background-image: url("~/static/flowerfield1.jpg");
   background-size: 100% auto;
+  padding: 20em initial;
 }
 
 .section-hero::before,
@@ -68,13 +69,14 @@ export default {
   width: 60em;
   transform: rotate(-35deg);
   background-color: var(--color-tertiary);
-  right: -20em;
+  right: -37em;
   bottom: -35em;
   background: linear-gradient(
     180deg,
     var(--color-quaternary) 4%,
     var(--color-primary) 4%
   );
+  opacity: 0.7;
 }
 
 @media screen and (min-width: 960px) {
