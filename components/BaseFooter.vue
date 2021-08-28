@@ -28,7 +28,7 @@
 
         <v-spacer />
 
-        <v-col md="3" cols="6" class="px-3">
+        <v-col md="3" cols="12" class="px-3">
           <v-btn
             v-for="(socialButton, index) in social"
             :key="socialButton + index"
