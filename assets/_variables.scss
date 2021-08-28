@@ -1,14 +1,15 @@
 :root {
   --color-primary: #2a8da8;
-  --color-secondary: #275184;
-  --color-tertiary: #226ebb;
-  --color-quaternary: white;
+  --color-secondary: #e8a01c;
+  --color-tertiary: #504c24;
+  --color-quaternary: #8fccda;
   --section-background-color-primary: #8fccda;
-  --title: #e8a01c;
+  --title1: #e8a01c;
+  --title2: var(--color-primary);
   --info: #504c24;
   --border: #cfd7e1;
-  --border2: #10457c;
-  --accent: rgb(7, 46, 89);
+  --border2: var(--color-primary);
+  --accent: #e8a01c;
   --overlay-color1: rgba(34, 110, 186, 0.4);
   --overlay-color2: rgb(31, 103, 177);
   --overlay-color3: rgb(7, 46, 89);
