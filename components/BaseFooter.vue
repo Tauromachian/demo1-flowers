@@ -38,19 +38,6 @@
           <p>Correo electrónico</p>
           <p>Teléfono</p>
         </v-col>
-
-        <v-col md="3" cols="12" class="d-flex flex-column justify-center pl-3">
-          <v-btn class="mb-2 last-update-btn">
-            Fecha: 8-7-2021
-          </v-btn>
-          <div />
-          <v-btn class="mb-2 last-update-btn">
-            Hora: 2:00PM
-          </v-btn>
-          <p class="align-self-center">
-            Última actualización
-          </p>
-        </v-col>
       </v-row>
     </v-container>
     <v-container fluid class="footer__copyright py-6 container">
