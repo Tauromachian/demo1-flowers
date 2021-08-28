@@ -45,8 +45,7 @@
     <v-container fluid class="footer__copyright py-6 container">
       <v-row align-content="center">
         <v-col class="text-center" cols="12">
-          Copyright &copy; {{ new Date().getFullYear() }} Ticket Todos los
-          derechos reservados
+          Copyright &copy; {{ new Date().getFullYear() }} Flower all rights reserved
         </v-col>
       </v-row>
     </v-container>
