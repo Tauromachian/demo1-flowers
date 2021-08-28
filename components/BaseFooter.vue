@@ -9,7 +9,7 @@
     <v-container class="container">
       <v-row>
         <v-col md="4" cols="12" class="pr-3">
-          <h1>
+          <h1 class="footer__title">
             Flowers
           </h1>
           <p>
