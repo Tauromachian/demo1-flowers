@@ -14,13 +14,10 @@
         :breakpoints="breakpoints"
         :gap="2"
       >
-        <vueper-slide
-          v-for="(slide, index) in slides"
-          :key="slide.img + index"
-        >
+        <vueper-slide v-for="(slide, index) in slides" :key="slide.img + index">
           <template #content>
             <v-card class="card" color="accent3">
-              <v-img :src="slide.img" alt="" />
+              <v-img :src="slide.img" alt="" height="270px" />
               <v-card-title>
                 {{ slide.serviceName }}
               </v-card-title>
@@ -95,5 +92,4 @@ export default {
 .w-full {
   width: 100% !important;
 }
-
 </style>
