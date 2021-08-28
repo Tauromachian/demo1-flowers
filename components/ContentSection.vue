@@ -30,7 +30,7 @@ export default {
 .page-section__title {
   text-transform: uppercase;
   text-align: center;
-  color: var(--color-tertiary);
+  color: var(--title2);
   font-weight: initial;
 }
 </style>
