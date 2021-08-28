@@ -35,7 +35,7 @@
             icon
             x-large
           >
-            <v-icon x-large color="accent">
+            <v-icon color="accent" class="social-button">
               {{ "mdi-" + socialButton }}
             </v-icon>
           </v-btn>
@@ -74,6 +74,10 @@ export default {
   font-size: 4rem;
   margin-top: -0.6em;
   color: var(--accent2);
+}
+
+.social-button {
+  font-size: 60px !important;
 }
 
 h3 {
