@@ -80,12 +80,7 @@ export default {
   font-size: 60px !important;
 }
 
-h3 {
-  text-transform: uppercase;
-}
-
 p {
-  font-weight: bold;
   margin-bottom: 0;
 }
 
