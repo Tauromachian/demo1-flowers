@@ -64,8 +64,7 @@
 export default {
   data () {
     return {
-      appBarLinks: ['Home', 'Flowers', 'Search'],
-      title: 'Vuetify.js'
+      appBarLinks: ['Home', 'Flowers', 'Search']
     }
   }
 }
