@@ -36,12 +36,7 @@ export default {
 .section-hero {
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(
-      90deg,
-      var(--overlay-color4) 60%,
-      var(--overlay-color5)
-    ),
-    url("~/static/office.jpg");
+  background-image: url("~/static/flowerfield1.jpg");
   background-size: 100% auto;
 }
 
