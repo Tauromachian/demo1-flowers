@@ -74,6 +74,7 @@ export default {
 .footer__title {
   font-size: 4rem;
   margin-top: -0.6em;
+  color: var(--accent2);
 }
 
 h3 {
