@@ -45,13 +45,13 @@ export default {
     theme: {
       themes: {
         light: {
-          primary: '#185596',
-          secondary: '#275184',
-          tertiary: '#226ebb',
-          accent: '#061942',
-          title: '#226ebb',
-          info: '#107865',
-          border: '#cfd7e1'
+          primary: '#2a8da8',
+          secondary: '#e8a01c',
+          tertiary: '#504c24',
+          accent: '#e8a01c',
+          title: '#8fccda',
+          info: '#8fccda',
+          border: '#61415d'
         }
       }
     }
