@@ -76,9 +76,17 @@ export default {
 }
 
 .section-hero__title {
-  color: var(--accent);
+  color: var(--title2);
   font-size: 3.8rem;
 }
+
+@media screen and (min-width: 960px) {
+  .section-hero__title {
+    color: var(--title1);
+    font-size: 3.8rem;
+  }
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }
