@@ -8,7 +8,7 @@
   >
     <v-container class="container">
       <v-row>
-        <v-col md="3" cols="12" class="pr-3">
+        <v-col md="4" cols="12" class="pr-3">
           <h1>Ticket</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem odit
