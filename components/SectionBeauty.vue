@@ -52,12 +52,7 @@ export default {
 
 <style scoped>
 .section {
-  background-image: linear-gradient(
-      90deg,
-      var(--overlay-color1),
-      var(--overlay-color1)
-    ),
-    url("~/static/eyes-makeup.jpg");
+  background-image: url("~/static/sunflower2.jpg");
   background-size: 100% auto;
   background-position-y: center;
 }
