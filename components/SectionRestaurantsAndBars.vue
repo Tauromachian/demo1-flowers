@@ -51,6 +51,6 @@ export default {
 }
 
 .section__title {
-  color: var(--color-quaternary);
+  color: var(--title2);
 }
 </style>
