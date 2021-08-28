@@ -26,19 +26,19 @@ export default {
     return {
       slides: [
         {
-          img: 'picture.png',
+          img: 'purpleflower1.jpg',
           serviceName: 'Name',
           establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
         },
         {
-          img: 'picture.png',
+          img: 'purpleflower1.jpg',
           serviceName: 'Name',
           establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
         },
         {
-          img: 'picture.png',
+          img: 'purpleflower1.jpg',
           serviceName: 'Name',
           establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
