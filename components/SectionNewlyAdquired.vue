@@ -20,19 +20,19 @@ export default {
     return {
       slides: [
         {
-          img: 'picture.png',
+          img: 'yellowflower1.jpg',
           serviceName: 'Name',
           establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
         },
         {
-          img: 'picture.png',
+          img: 'yellowflower1.jpg',
           serviceName: 'Name',
           establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
         },
         {
-          img: 'picture.png',
+          img: 'yellowflower1.jpg',
           serviceName: 'Name',
           establishmentName: 'Flower name',
           description: 'Lorem ipsum dolorem sit amet consecuteur'
