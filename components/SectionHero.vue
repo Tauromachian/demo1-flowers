@@ -8,9 +8,8 @@
           </h1>
           <p>
             Flowers are beautiful and make our lives rich. The colors and smells
-            really add to what we love.
-            We sell flowers in their own vessel for you to help it grow.
-            Want to have your own flower?
+            really add to what we love. We sell flowers in their own vessel for
+            you to help it grow. Want to have your own flower?
           </p>
           <div class="d-flex">
             <v-btn color="accent" class="align-self-center" x-large>
