@@ -90,7 +90,7 @@ export default {
 }
 
 .section-hero__title {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 3.8rem;
 }
 .text-uppercase {
