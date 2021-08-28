@@ -24,8 +24,9 @@
             v-for="(socialButton, index) in social"
             :key="socialButton + index"
             icon
+            x-large
           >
-            <v-icon>
+            <v-icon x-large color="accent">
               {{ "mdi-" + socialButton }}
             </v-icon>
           </v-btn>
