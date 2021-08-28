@@ -31,14 +31,6 @@
             </v-icon>
           </v-btn>
         </v-col>
-
-        <v-col md="3" cols="6" class="px-3">
-          <h3 class="mb-5">
-            Contactos
-          </h3>
-          <p>Correo electrónico</p>
-          <p>Teléfono</p>
-        </v-col>
       </v-row>
     </v-container>
     <v-container fluid class="footer__copyright py-6 container">
