@@ -1,6 +1,6 @@
 <template>
   <content-section class="section-hero">
-    <v-container>
+    <v-container class="section-hero__container">
       <v-row class="z-index-10">
         <v-col cols="12" sm="6" class="d-flex flex-column justify-center">
           <h1 class="text-uppercase section-hero__title">
@@ -38,7 +38,13 @@ export default {
   overflow: hidden;
   background-image: url("~/static/flowerfield1.jpg");
   background-size: 100% auto;
-  padding: 20em initial;
+  height: 100vh;
+}
+
+.section-hero__container {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .section-hero::after {
