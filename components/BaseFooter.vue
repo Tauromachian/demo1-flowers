@@ -126,4 +126,10 @@ p {
   border-top: 2.4em solid var(--border2) !important;
   opacity: 0.7;
 }
+
+.social-buttons {
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
 </style>
