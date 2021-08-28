@@ -13,7 +13,7 @@
             Want to have your own flower?
           </p>
           <div class="d-flex">
-            <v-btn color="primary align-self-center" x-large>
+            <v-btn color="accent" class="align-self-center" x-large>
               Get your flower
             </v-btn>
           </div>
