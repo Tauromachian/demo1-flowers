@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app flat class="bg-transparent z-index-100">
+    <v-app-bar app flat absolute class="bg-transparent z-index-100">
       <v-spacer />
       <v-btn
         v-for="(link, index) in appBarLinks"
@@ -61,8 +61,8 @@ export default {
 }
 </script>
 
-<style lang='scss'>
-@import 'vueperslides/dist/vueperslides.css';
+<style lang="scss">
+@import "vueperslides/dist/vueperslides.css";
 
 .z-index-100 {
   z-index: 100 !important;
