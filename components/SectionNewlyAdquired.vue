@@ -52,5 +52,6 @@ export default {
 
 .section__title {
   color: var(--title2);
+  font-weight: bold;
 }
 </style>

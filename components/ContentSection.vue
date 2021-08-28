@@ -32,5 +32,7 @@ export default {
   text-align: center;
   color: var(--title2);
   font-weight: initial;
+  font-weight: bold;
+
 }
 </style>
