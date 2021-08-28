@@ -2,7 +2,7 @@
   <div class="d-flex flex-column">
     <section-hero />
     <section-reserve class="py-15" />
-    <section-restaurants-and-bars class="pt-15" />
-    <section-beauty />
+    <section-newly-adquired class="pt-15" />
+    <section-more-popular />
   </div>
 </template>
