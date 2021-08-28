@@ -102,7 +102,7 @@ p {
 }
 
 .footer__copyright {
-  background-color: var(--accent);
+  background-color: var(--color-primary);
   opacity: 0.6;
 }
 
