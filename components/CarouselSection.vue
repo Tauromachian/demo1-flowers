@@ -91,7 +91,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .w-full {
   width: 100% !important;
 }
