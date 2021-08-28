@@ -45,13 +45,7 @@ export default {
 
 <style scoped>
 .section {
-  background-image: linear-gradient(
-      90deg,
-      var(--overlay-color1),
-      var(--overlay-color1)
-    ),
-    url("~/static/restaurant.jpg");
-
+  background-image: url("~/static/sunflower1.jpg");
   background-size: 100% auto;
   background-position-y: center;
 }
