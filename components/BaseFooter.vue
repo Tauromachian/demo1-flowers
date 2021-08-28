@@ -6,7 +6,7 @@
     :app="app"
     class="pt-16 px-0 pb-0 footer"
   >
-    <v-container class="container">
+    <v-container class="container pb-10">
       <v-row>
         <v-col md="4" cols="12" class="pr-3">
           <h1 class="footer__title">
@@ -18,17 +18,17 @@
           </p>
         </v-col>
 
-        <v-col md="3" cols="6" class="px-3">
-          <h3 class="mb-5">
+        <v-col md="4" sm="6" cols="12" class="px-3">
+          <h3>
             Contacts
           </h3>
-          <p>Mail</p>
-          <p>Phone</p>
+          <p>Mail: somemail@mail.mail</p>
+          <p>Phone: +535456778</p>
         </v-col>
 
         <v-spacer />
 
-        <v-col md="3" cols="12" class="px-3">
+        <v-col md="4" sm="6" cols="12" class="px-3 social-buttons">
           <v-btn
             v-for="(socialButton, index) in social"
             :key="socialButton + index"
