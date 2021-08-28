@@ -54,8 +54,8 @@ export default {
   position: relative;
   background-image: linear-gradient(
       90deg,
-      var(--overlay-color1),
-      var(--overlay-color1)
+      var(--overlay1),
+      var(--overlay2)
     ),
     url("~/static/flowerfield2.jpg");
   background-size: 100% auto;
