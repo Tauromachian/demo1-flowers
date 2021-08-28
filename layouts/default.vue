@@ -14,7 +14,7 @@
       <!-- Login button -->
       <v-btn
         :to="{ name: 'Login' }"
-        color="primary"
+        color="accent"
         class="text-transform-capitalize"
       >
         Iniciar Sesión
