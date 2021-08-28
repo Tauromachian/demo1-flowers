@@ -119,10 +119,10 @@ p {
   height: 40em;
   width: 60em;
   transform: skewY(-24deg);
-  background-color: var(--color-tertiary);
+  background-color: var(--accent2);
   right: 0;
   bottom: -33em;
   border-top: 2.4em solid var(--border2) !important;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 </style>
