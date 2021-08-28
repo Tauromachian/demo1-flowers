@@ -11,7 +11,7 @@
             really add to what we love. We sell flowers in their own vessel for
             you to help it grow. Want to have your own flower?
           </p>
-          <div class="d-flex">
+          <div class="d-flex button-wrapper">
             <v-btn color="accent" class="align-self-center" x-large>
               Get your flower
             </v-btn>
@@ -93,6 +93,18 @@ export default {
   .section-hero__title {
     color: var(--title1);
     font-size: 3.8rem;
+  }
+}
+
+.button-wrapper {
+  padding-top: 2em;
+  justify-content: center;
+}
+
+@media screen and (min-width: 960px) {
+  .button-wrapper {
+    padding-top: 0;
+    justify-content: start;
   }
 }
 
