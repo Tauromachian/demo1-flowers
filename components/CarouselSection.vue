@@ -19,7 +19,7 @@
           :key="slide.img + index"
         >
           <template #content>
-            <v-card>
+            <v-card class="card" color="accent3">
               <v-img :src="slide.img" alt="" />
               <v-card-title>
                 {{ slide.serviceName }}
