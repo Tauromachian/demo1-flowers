@@ -1,6 +1,11 @@
 <template>
   <v-app>
-    <v-app-bar app flat absolute class="bg-transparent z-index-100">
+    <v-app-bar
+      app
+      flat
+      absolute
+      class="bg-transparent z-index-100 d-none d-sm-block"
+    >
       <v-spacer />
       <v-btn
         v-for="(link, index) in appBarLinks"
@@ -59,11 +64,7 @@
 export default {
   data () {
     return {
-      appBarLinks: [
-        'Home',
-        'Flowers',
-        'Search'
-      ],
+      appBarLinks: ['Home', 'Flowers', 'Search'],
       items: [
         {
           icon: 'mdi-apps',
