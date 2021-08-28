@@ -3,7 +3,7 @@
     <carousel-section
       title="Servicios de belleza"
       :slides="slides"
-      class="section"
+      class="section pt-15"
     >
       <template #title>
         <span class="section__title">
