@@ -32,7 +32,7 @@
       </v-container>
     </v-main>
 
-    <base-footer />
+    <base-footer class="footer" />
 
     <v-bottom-navigation
       class="z-index-100 d-sm-none"
@@ -96,5 +96,15 @@ export default {
 
 .text-transform-capitalize {
   text-transform: capitalize !important;
+}
+
+.footer {
+  margin-bottom: 56px;
+}
+
+@media screen and (min-width: 600px) {
+.footer {
+  margin-bottom: 0;
+}
 }
 </style>
