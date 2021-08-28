@@ -119,5 +119,6 @@ p {
   right: 0;
   bottom: -33em;
   border-top: 2.4em solid var(--border2) !important;
+  opacity: 0.5;
 }
 </style>
