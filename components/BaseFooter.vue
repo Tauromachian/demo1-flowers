@@ -9,7 +9,9 @@
     <v-container class="container">
       <v-row>
         <v-col md="4" cols="12" class="pr-3">
-          <h1>Ticket</h1>
+          <h1>
+            Flowers
+          </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem odit
             quis voluptatem.
