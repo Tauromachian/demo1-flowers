@@ -28,6 +28,30 @@
     </v-main>
 
     <base-footer />
+
+    <v-bottom-navigation
+      class="z-index-100 d-sm-none"
+      fixed
+      :value="value"
+      color="primary"
+      horizontal
+    >
+      <v-btn
+        v-for="(link, index) in appBarLinks"
+        :key="link + index"
+        text
+        class="text-transform-capitalize"
+      >
+        {{ link }}
+      </v-btn>
+      <v-btn
+        :to="{ name: 'Login' }"
+        color="accent"
+        class="text-transform-capitalize"
+      >
+        Iniciar Sesión
+      </v-btn>
+    </v-bottom-navigation>
   </v-app>
 </template>
 
