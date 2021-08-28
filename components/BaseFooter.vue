@@ -71,7 +71,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h1 {
+.footer__title {
   font-size: 4rem;
   margin-top: -0.6em;
 }
