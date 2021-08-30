@@ -1,9 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - home-page',
     target: 'static',
-    title: 'home-page',
+    titleTemplate: '%s',
+    title: 'Flowers',
     htmlAttrs: {
       lang: 'en'
     },
