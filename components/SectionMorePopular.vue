@@ -57,7 +57,13 @@ export default {
 }
 
 .section__title {
-  color: var(--title1);
+  color: var(--accent2);
+}
+
+@media screen and (min-width: 960px) {
+  .section__title {
+    color: var(--title1);
+  }
 }
 
 .section-beauty {
