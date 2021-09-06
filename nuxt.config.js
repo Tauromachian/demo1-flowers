@@ -19,11 +19,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Patua+One&display=swap'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap'
       }
     ]
   },
